@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Satel Realty</title>
+    <link rel="stylesheet" href="css/test.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:wght@100&display=swap"
+          rel="stylesheet">
+    <title>Satel Realty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<style>
+.img-style{
+    /*min-height: 600px;*/
+    /*height: 70vh;*/
+    /*position: absolute;*/
+    /*top: 76px;*/
+    /*width: 70vw;*/
+    /*right: 0;*/
+    /*z-index: 9;*/
+}
+.image-slider {
+    /*min-height: 600px;*/
+    /*height: 70vh;*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*z-index: 1;*/
+}
+
+</style>
+<body>
+
+<!-- ======================================================Menu Section======================================================================================================== -->
+
+
+<section class="">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+
+            <a class="navbar-brand" href="#"><img src="img/logo.svg"></a>
+
+            <button class="navbar-toggler" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
+                    aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                 aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="img/logo.svg"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link px-3 active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Our services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Step by step</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Available units</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Specialized satel</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <button class="register-btn  px-3" type="submit">Register your intrest</button>
+                    </form>
+
+                </div>
+            </div>
+    </nav>
+</section>
+
+<div class="hero">
+
+    <div class="slider-direction-wrap">
+        <div class="image-slider-wrap">
+            <div class="image-slider">
+                <div class="item active" style="background-image: url('img/home.png')"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" >
+        <div class="row align-items-center">
+            <div class="col-lg-5 content">
+                <div class="intro-wrap">
+                    <div><h1 class=""><span
+                            class="d-block">Discover the Beauty of Real Estate, One Listing at a Time</span>
+                    </h1></div>
+
+
+                    <div><p class="mb-5">Immerse yourself in the world of real estate excellence. Explore stunning
+                        properties, curated with care.</p></div>
+                </div>
+
+
+                <div class="toggle-btn btn-group" role="group" aria-label="Button slider">
+                    <button type="button" class="btn btn-slider active" id="rent-button">Rent</button>
+                    <button type="button" class="btn btn-slider" id="ownership-button">Ownership</button>
+                </div>
+            </div>
+
+            <div class="row pt-2 d-flex ">
+                <div class="col-12">
+                    <form class="form">
+                        <div class="row mb-2">
+                            <div class="col-sm-6 col-md-6 mb-3 mb-lg-0 col-lg-2 search-item">
+                                <div class="border-right">
+                                    <label>Category</label>
+                                    <select name="" id="" class="form-control custom-select">
+                                        <option value="">Rent type</option>
+                                        <option value="">Peru</option>
+                                        <option value="">Japan</option>
+                                        <option value="">Thailand</option>
+                                        <option value="">Brazil</option>
+                                        <option value="">United States</option>
+                                        <option value="">Israel</option>
+                                        <option value="">China</option>
+                                        <option value="">Russia</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6 col-md-6 mb-3 mb-lg-0 col-lg-2 search-item">
+                                <div class="border-right">
+                                    <label>Offer type</label>
+                                    <select name="" id="" class="form-control custom-select">
+                                        <option value="">Rent type</option>
+                                        <option value="">Peru</option>
+                                        <option value="">Japan</option>
+                                        <option value="">Thailand</option>
+                                        <option value="">Brazil</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6 col-md-6 mb-3 mb-lg-0 col-lg-2 search-item">
+                                <div class="border-right">
+                                    <label>Rooms/Space</label>
+                                    <select name="" id="" class="form-control custom-select">
+                                        <option value="">Rent type</option>
+                                        <option value="">Peru</option>
+                                        <option value="">Japan</option>
+                                        <option value="">Thailand</option>
+                                        <option value="">Brazil</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6 col-md-6 mb-3 mb-lg-0 col-lg-4 search-item">
+                                <div class="border-right">
+                                    <label>Neighbourhood</label>
+                                    <input type="text" class="form-control" placeholder="search">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 mb-3 mb-lg-0 col-lg-2 search-btn ">
+                                <input type="submit" class="btn search btn-block" value="Search">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<section>
+    <div class="container">
+        <h6>About Satel</h6>
+
+    </div>
+</section>
+
+<!-- ======================================================Service Section======================================================================================================== -->
+
+
+<!--<section class="services pt-5">-->
+
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-12">-->
+<!--                <div class="section-header">-->
+<!--                    <span class="section-title">Our services</span>-->
+<!--                    <h1 class="section-des pt-3">A discrete experience in the real estate field</h1>-->
+<!--                </div>-->
+
+<!--                <div class="section-content">-->
+<!--                    <div class="container">-->
+
+<!--                        <div class="row py-5">-->
+<!--                            <div class="col-3">-->
+<!--                                <img src="img/Frame 1261154839.svg" class="interior-design">-->
+<!--                                <div class="card-design text-left">-->
+<!--                                    <img src="icons/interior.svg" class="mb-3">-->
+<!--                                    <h3 class="service-title">-->
+<!--                                        Interior Design-->
+<!--                                    </h3>-->
+<!--                                    <p class="service-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+
+<!--                            </div>-->
+<!--                            <div class="col-9">-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-4 ">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/PM.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Property Management-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/contract.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Contract Services-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/real-estat.svg" class="mb-3" height="44px" width="44px">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Real Estate Marketing-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/investment.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Real Estate Investment-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/brokerage.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Real Estate Brokerage-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/union.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Owners Union-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/restoration.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Restoration and Operation-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/facilities.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Facilities Management-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-4">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/maintenance.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Maintenance-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</section>-->
+
+<!-- ======================================================Service Mobile Section======================================================================================================== -->
+<!--<section class="services-mobile pt-5">-->
+
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-12">-->
+<!--                <div class="section-header">-->
+<!--                    <span class="section-title">Our services</span>-->
+<!--                    <h1 class="section-des pt-3">A discrete experience in the real estate field</h1>-->
+<!--                </div>-->
+
+<!--                <div class="section-content">-->
+<!--                    <div class="container">-->
+
+<!--                        <div class="row py-5">-->
+<!--                            <div class="col-12">-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left"-->
+<!--                                             style="background-image: url(img/Rectangle\ 6255.svg);">-->
+<!--                                            <img src="icons/interior.svg">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Interior Design-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/PM.svg" class="mb-3">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Property Management-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/contract.svg" class="mb-2">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Contract Services-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/real-estat.svg" class="mb-2" height="44px" width="44px">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Real Estate Marketing-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/investment.svg" class="mb-2">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Real Estate Investment-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/brokerage.svg" class="mb-2">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Real Estate Brokerage-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/union.svg" class="mb-2">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Owners Union-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/restoration.svg" class="mb-2">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Restoration and Operation-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/facilities.svg" class="mb-2">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Facilities Management-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    <div class="col-6">-->
+<!--                                        <div class="service text-left">-->
+<!--                                            <img src="icons/maintenance.svg" class="mb-2">-->
+<!--                                            <h3 class="service-title">-->
+<!--                                                Maintenance-->
+<!--                                            </h3>-->
+<!--                                            <p class="service-txt">-->
+<!--                                                description goes here in three lines like this style here as suggested.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</section>-->
+
+<!-- ==================================================================Realty Section======================================================================================= -->
+
+<!--<section class="realty pt-5">-->
+
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-12">-->
+<!--                <div class="section-header">-->
+<!--                    <span class="section-title">Satel Realty</span>-->
+<!--                    <h1 class="section-des pt-3">A lively community and modern facilities</h1>-->
+<!--                </div>-->
+
+<!--                <div class="section-content">-->
+<!--                    <div class="container">-->
+
+<!--                        <div class="realty-content py-5">-->
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/reservoirs.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Reservoirs-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/perfume.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Perfuming-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/air-conditioner 1.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Conditioners-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/gas-bottle 1.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Central gas-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/entry-device.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Entry devices-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/clean.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Cleanliness-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/Security Guard.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Guard-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/elevators.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Elevators-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/cctv 1.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Cameras-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="column">-->
+<!--                                <div class="realty-card text-left">-->
+<!--                                    <img src="icons/pesticides.svg" class="mb-3">-->
+<!--                                    <h3 class="realty-title">-->
+<!--                                        Pesticides-->
+<!--                                    </h3>-->
+<!--                                    <p class="realty-txt">-->
+<!--                                        description goes here in three lines like this style here as suggested.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</section>-->
+
+<!-- ==========================================================================Footer Section======================================================================== -->
+<!--<section class="site-footer">-->
+<!--    <div class="container">-->
+<!--        <div class="row justify-content-between">-->
+<!--            <div class="col-lg-4">-->
+<!--                <div class="widget">-->
+<!--                    <a><img src="img/logofoot.svg"></a>-->
+<!--                    <p>Lorem ipsum dolor sit amet, sectetuer adipiscing elit, sed diam nonummy nibh tempor cum-->
+<!--                        consectetuere.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-8">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-3">-->
+<!--                    </div>-->
+<!--                    <div class="col-4 ">-->
+<!--                        <div class="widget">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-4 ">-->
+<!--                        <div class="widget">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-6 col-sm-6 col-md-3">-->
+<!--                        <div class="widget">-->
+<!--                            <label>Quick link</label>-->
+<!--                            <ul class="links list-unstyled">-->
+<!--                                <li><a href="#">Home</a></li>-->
+<!--                                <li><a href="#">About Us</a></li>-->
+<!--                                <li><a href="#">Services</a></li>-->
+<!--                                <li><a href="#">Projects</a></li>-->
+<!--                                <li><a href="#">Contact Us</a></li>-->
+<!--                                <li><a href="#">Blog</a></li>-->
+<!--                                <li><a href="#">Available units</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-6 col-sm-6 col-md-4">-->
+<!--                        <div class="widget">-->
+<!--                            <label>About Satel</label>-->
+<!--                            <a href="#" class="link-unstyled">-->
+<!--                                <div class="icon-text-container">-->
+<!--                              <span class="icon">-->
+<!--                                <img src="img/location.svg" alt="Icon">-->
+<!--                              </span>-->
+<!--                                    <span class="text">-->
+<!--                                Saudi Arabia , Riyadh , Olaya St-->
+<!--                                </span>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                            <a href="#" class="link-unstyled">-->
+<!--                                <div class="icon-text-container">-->
+<!--                              <span class="icon">-->
+<!--                                <img src="img/clock.svg" alt="Icon">-->
+<!--                              </span>-->
+<!--                                    <span class="text">-->
+<!--                                    From Saturday To<br>-->
+<!--                                    Thursday8:00 AM To 21:00 PM-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                            <a href="#" class="link-unstyled">-->
+<!--                                <div class="icon-text-container">-->
+<!--                              <span class="icon">-->
+<!--                                <img src="img/phone.svg" alt="Icon">-->
+<!--                              </span>-->
+<!--                                    <span class="text">-->
+<!--                                    539992727<br>-->
+<!--                                    966920015053+-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                            <a href="#" class="link-unstyled">-->
+<!--                                <div class="icon-text-container">-->
+<!--                              <span class="icon">-->
+<!--                                <img src="img/message.svg" alt="Icon">-->
+<!--                              </span>-->
+<!--                                    <span class="text">-->
+<!--                                    info@satelrealty.com-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class=" col-sm-12 col-md-5">-->
+<!--                        <div class="widget">-->
+<!--                            <label>Subscribe</label>-->
+<!--                            <ul class="links list-unstyled">-->
+<!--                                <div class="pb-3">-->
+<!--                                        <span class="span1">Sign up with your email to get-->
+<!--                                        latest updates and offers</span>-->
+<!--                                </div>-->
+<!--                                <div class="input-group mb-3 group-input">-->
+<!--                                    <input type="text" class="form-control" placeholder="Enter your e-mail"-->
+<!--                                           aria-label="Recipient's username" aria-describedby="button-addon2">-->
+<!--                                    <button class="btn custom-btn" type="button" id="button-addon2">Subscribe</button>-->
+<!--                                </div>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row copyright">-->
+<!--            <div class="col-md-6 copy">-->
+<!--                <p>&copy; All Rights Reserved to <a href="#" style="text-decoration: none">Satel Realty</a> ©-->
+<!--                    <script>document.write(new Date().getFullYear());</script>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 so">-->
+<!--                <div class=" ">-->
+<!--                    <ul class="social list-unstyled ">-->
+<!--                        <li><a href="#"><img src="img/youtube.svg"></a></li>-->
+<!--                        <li><a href="#"><img src="img/inst.svg"></a></li>-->
+<!--                        <li><a href="#"><img src="img/twitter.svg"></span></a></li>-->
+<!--                        <li><a href="#"><img src="img/snap.svg"></span></a></li>-->
+<!--                        <li><a href="#"><img src="img/linkedin.svg"></span></a></li>-->
+<!--                        <li><a href="#"><img src="img/tiktok.svg"></a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    document.getElementById("rent-button").addEventListener("click", function () {
+        this.classList.add("active");
+        document.getElementById("ownership-button").classList.remove("active");
+    });
+
+    document.getElementById("ownership-button").addEventListener("click", function () {
+        this.classList.add("active");
+        document.getElementById("rent-button").classList.remove("active");
+    });
+
+</script>
+</body>
+</html>
